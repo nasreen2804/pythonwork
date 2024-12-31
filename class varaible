@@ -1,0 +1,13 @@
+class phone():
+    chargertype="type-c"
+    def __init__(self,brand):
+        self.brand=brand;
+
+    def display(self):
+        print("brand:",self.brand);
+        print("chargertype:",self.chargertype);
+              
+phone.chargertype="type-b";
+
+samsung=phone("samsung")
+samsung.display()
